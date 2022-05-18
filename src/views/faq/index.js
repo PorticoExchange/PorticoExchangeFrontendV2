@@ -90,7 +90,7 @@ class Faq extends React.Component {
               content={style => (
                 <p className={style}>
                   Non custodial exchanges give you full control over your funds.
-                  All trades on LNSwap are executed in a way that we cannot
+                  All trades on Portico Exchange are executed in a way that we cannot
                   steal any money from you. Period.
                   <br />
                   <br />
