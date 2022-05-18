@@ -75,9 +75,9 @@ class Faq extends React.Component {
                   Please note that this software is currently in alpha stage and
                   is heavily worked on. If you experience any issues or have
                   some feedback feel free to join{' '}
-                  <Link to={lnSwapDiscordLink} text={'LNSwap Discord'} /> #support channel or  {' '}
+                  <Link to={lnSwapDiscordLink} text={'Portico Exchange Discord'} /> #support channel or  {' '}
                   <Link to={discordLink} text={'Stacks Discord'} /> and contact
-                  pseudozach#1633 or DM on <Link to={lnSwapTwitterLink} text={'@ln_swap'} /> on Twitter.
+                  pseudozach#1633 or DM on <Link to={lnSwapTwitterLink} text={'@porticoexchange'} /> on Twitter.
                 </p>
               )}
             />
@@ -112,7 +112,7 @@ class Faq extends React.Component {
                   source code and verify that the claims above are valid because
                   everything is open source and can be found on{' '}
                   <Link
-                    to={'https://github.com/lnstxbridge'}
+                    to={'https://github.com/PorticoExchange'}
                     text={'our GitHub'}
                   />
                 </p>
@@ -140,7 +140,7 @@ class Faq extends React.Component {
             <Question
               title={style => (
                 <h1 className={style}>
-                  How to open Lightning channels with LNSwap?
+                  How to open Lightning channels with Portico Exchange?
                 </h1>
               )}
               content={style => (
