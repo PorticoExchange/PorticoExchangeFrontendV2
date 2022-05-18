@@ -65,12 +65,12 @@ class Faq extends React.Component {
           </View>
           <View className={classes.questionTab}>
             <Question
-              title={style => <h1 className={style}>What is LNSwap?</h1>}
+              title={style => <h1 className={style}>What is Portico Exchange?</h1>}
               content={style => (
                 <p className={style}>
-                  LNSwap is a non custodial crypto currency exchange that
-                  provides a fast, private way of swapping Bitcoin for Stacks
-                  and vice versa. We don't use any trackers or log any data that
+                  Portico Exchange is a non custodial crypto currency exchange that
+                  provides a fast, private way of swapping Bitcoin between layers 
+                  and sidechain We don't use any trackers or log any data that
                   could identify our users. <br /> <br />
                   Please note that this software is currently in alpha stage and
                   is heavily worked on. If you experience any issues or have
