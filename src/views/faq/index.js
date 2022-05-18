@@ -45,10 +45,10 @@ const styles = theme => ({
   },
 });
 
-const twitterLink = 'https://twitter.com/boltzhq';
+const twitterLink = 'https://twitter.com/porticoexchange;
 const discordLink = 'https://discord.gg/kyNWQAUwY5';
 const lnSwapDiscordLink = 'https://discord.gg/Gt45nMYPCM';
-const lnSwapTwitterLink = 'https://twitter.com/ln_swap';
+const lnSwapTwitterLink = 'https://twitter.com/porticoexchange';
 
 class Faq extends React.Component {
   render() {
@@ -120,7 +120,7 @@ class Faq extends React.Component {
             />
             <Question
               title={style => (
-                <h1 className={style}>What wallets are supported by LNSwap?</h1>
+                <h1 className={style}>What wallets are supported by Portico Exchanhe?</h1>
               )}
               content={style => (
                 <p className={style}>
