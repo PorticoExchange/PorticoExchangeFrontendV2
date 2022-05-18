@@ -120,7 +120,7 @@ class Faq extends React.Component {
             />
             <Question
               title={style => (
-                <h1 className={style}>What wallets are supported by Portico Exchanhe?</h1>
+                <h1 className={style}>What wallets are supported by Portico Exchange?</h1>
               )}
               content={style => (
                 <p className={style}>
