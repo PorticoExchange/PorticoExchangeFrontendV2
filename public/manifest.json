@@ -1,6 +1,6 @@
 {
-  "short_name": "stxswap",
-  "name": "lnstxbridge-frontend",
+  "short_name": "portico",
+  "name": "portico-frontend",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
