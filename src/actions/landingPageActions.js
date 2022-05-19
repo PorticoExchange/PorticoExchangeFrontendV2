@@ -170,14 +170,14 @@ export const getPairs = () => {
 };
 
 export const getLastSwap = async () => {
-  const contract = '';
-  const url = https://explorer.rsk.co/ ;
+  const contract = '0xA233108b33dC77F1eeE9d183ee1dc9725e76D475'
+  const url = rskapi.host('http://localhost:4444');
   let response = await axios.get(url);
   const resultsarr = response.data.results;
   let lastSwap = resultsarr.find(item => item.tx.tx_status === 'success');
   // console.log(`getlastswap `, lastSwap)
   return {
-    amount: parseInt((lastSwap.btc_sent || lastSwap.btc_received) / 1000000),
+    amount: parseInt((lastSwap.rbtc_sent || lastSwap.rbtc_received) / 1000000),
     link: `https://explorer.rsk.co/txid/${lastSwap.tx.tx_id}?chain=mainnet`,
   };
 };
