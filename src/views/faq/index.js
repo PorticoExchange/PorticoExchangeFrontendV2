@@ -68,7 +68,7 @@ class Faq extends React.Component {
               title={style => <h1 className={style}>What is Portico Exchange?</h1>}
               content={style => (
                 <p className={style}>
-                  Portico Exchange is a non custodial crypto currency exchange that
+                  Portico Exchange is a non custodial Bitcoin exchange that
                   provides a fast, private way of swapping Bitcoin between layers 
                   and sidechain. We don't use any trackers or log any data that
                   could identify our users. <br /> <br />
