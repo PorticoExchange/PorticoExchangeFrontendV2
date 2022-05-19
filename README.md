@@ -1,6 +1,6 @@
 # lnstxbridge-frontend
-* Frontend for [lnstxbridge](https://github.com/pseudozach/lnstxbridge)
-* Running on https://lnswap.org
+* Frontend for Portico Exchange
+* Running on https://lnswap.org (testnet)
 
 ## deploy to Vercel with 1-click
 
