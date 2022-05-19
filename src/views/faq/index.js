@@ -181,7 +181,7 @@ class Faq extends React.Component {
                 <p className={style}>
                    Portico Exchange is a fork of <Link to={'https://boltz.exchange'} text={'Boltz'} />. 
                   We are a team of independent developers working to unite RSK, Liquid Network, Lightning Network, Layers third
-                  and Bitcoin (On Chain) as Exchange Decentralized.  </p>
+                  and Bitcoin (On Chain) as Exchange Decentralized.</p>
               )}
             />
           </View>
