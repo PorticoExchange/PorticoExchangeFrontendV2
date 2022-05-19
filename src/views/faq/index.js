@@ -179,16 +179,9 @@ class Faq extends React.Component {
               title={style => <h1 className={style}>Acknowledgements</h1>}
               content={style => (
                 <p className={style}>
-                  * This work is supported by a grant from{' '}
-                  <Link
-                    to={'https://github.com/stacksgov/Stacks-Grants/issues/204'}
-                    text={'Stacks Foundation'}
-                  />
-                  . Feel free to provide comments/feedback/support/disapproval at the Foundation grant issue. 
-                  This will allow us to shape the way this bridge is developed/used in the future. <br/>
-                  * LN-STX Bridge is a fork of{' '}
-                  <Link to={'https://boltz.exchange'} text={'Boltz'} />.
-                </p>
+                   Portico Exchange is a fork of <Link to={'https://boltz.exchange'} text={'Boltz'} />. 
+                  We are a team of independent developers working to unite RSK, Liquid Network, Lightning Network, Layers third
+                  and Bitcoin (On Chain) as Exchange Decentralized.  </p>
               )}
             />
           </View>
