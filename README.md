@@ -1,4 +1,4 @@
-# lnstxbridge-frontend
+# Portico Exchange-frontend
 * Frontend for Portico Exchange
 * Running on https://lnswap.org (testnet)
 
