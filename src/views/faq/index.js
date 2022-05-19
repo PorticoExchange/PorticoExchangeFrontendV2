@@ -70,7 +70,7 @@ class Faq extends React.Component {
                 <p className={style}>
                   Portico Exchange is a non custodial crypto currency exchange that
                   provides a fast, private way of swapping Bitcoin between layers 
-                  and sidechain We don't use any trackers or log any data that
+                  and sidechain. We don't use any trackers or log any data that
                   could identify our users. <br /> <br />
                   Please note that this software is currently in alpha stage and
                   is heavily worked on. If you experience any issues or have
