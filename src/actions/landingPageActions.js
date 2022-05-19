@@ -171,7 +171,7 @@ export const getPairs = () => {
 
 export const getLastSwap = async () => {
   const contract = '0xA233108b33dC77F1eeE9d183ee1dc9725e76D475'
-  const url = rskapi.host('http://localhost:4444');
+  const url = 'https://rsk-node-api.mainnet.rsk.co/extended/v1/address/${contract}/transactions_with_transfers'
   let response = await axios.get(url);
   const resultsarr = response.data.results;
   let lastSwap = resultsarr.find(item => item.tx.tx_status === 'success');
