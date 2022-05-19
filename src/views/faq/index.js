@@ -73,11 +73,7 @@ class Faq extends React.Component {
                   and sidechain. We don't use any trackers or log any data that
                   could identify our users. <br /> <br />
                   Please note that this software is currently in alpha stage and
-                  is heavily worked on. If you experience any issues or have
-                  some feedback feel free to join{' '}
-                  <Link to={lnSwapDiscordLink} text={'Portico Exchange Discord'} /> #support channel or  {' '}
-                  <Link to={discordLink} text={'Stacks Discord'} /> and contact
-                  pseudozach#1633 or DM on <Link to={lnSwapTwitterLink} text={'@porticoexchange'} /> on Twitter.
+                  is heavily worked on.
                 </p>
               )}
             />
@@ -181,7 +177,8 @@ class Faq extends React.Component {
                 <p className={style}>
                    Portico Exchange is a fork of <Link to={'https://boltz.exchange'} text={'Boltz'} />. 
                   We are a team of independent developers working to unite RSK, Liquid Network, Lightning Network, Layers third
-                  and Bitcoin (On Chain) as Exchange Decentralized.</p>
+                  and Bitcoin (On Chain) as Exchange Decentralized.
+                </p>
               )}
             />
           </View>
