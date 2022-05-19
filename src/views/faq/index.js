@@ -128,8 +128,8 @@ class Faq extends React.Component {
                     to={'https://walletofsatoshi.com'}
                     text={'Wallet of Satoshi'}
                   />
-                  , that work out of the box and can make using LNSwap very
-                  easy.
+                  , that work out of the box and can make using Portico Exchange very
+                  easy and too we support LNURL as Zebedee.
                 </p>
               )}
             />
