@@ -45,10 +45,10 @@ const styles = theme => ({
   },
 });
 
-const twitterLink = 'https://twitter.com/porticoexchange;
+const twitterLink = 'https://twitter.com/porticoexchange';
 const discordLink = 'https://discord.gg/kyNWQAUwY5';
-const porticoDiscordLink = 'https://discord.gg/Gt45nMYPCM';
-const porticoTwitterLink = 'https://twitter.com/porticoexchange';
+const PorticoDiscordLink = 'https://discord.gg/Gt45nMYPCM';
+const PorticoTwitterLink = 'https://twitter.com/porticoexchange';
 
 class Faq extends React.Component {
   render() {
