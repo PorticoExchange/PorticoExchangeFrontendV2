@@ -13,11 +13,14 @@ import {
   bitcoinAddress,
   litecoinAddress,
   liquidAddress,
+  lnurlAddress,
   rskAddress,
   bitcoinInvoice,
   litecoinInvoice,
   liquidInvoice,
-  rskINvoice
+  rskInvoice,
+  lnurlinvoice,
+  
   erc20tokenaddress,
   
   // rbtcswapaddress,
