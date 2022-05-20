@@ -25,7 +25,7 @@ const ReverseSwap = lazy(() => import('./reverse'));
 const ReverseSwapTimelockExpired = lazy(() => import('./reversetimelock'));
 
 // const prefersBlueMode = useMediaQuery('(prefers-color-scheme: blue)');
-// prefersDarkMode ? 'blue' : 'light',
+// prefersBluekMode ? 'blue' : 'green',
 const theme = createTheme(
   {
     palette: {
@@ -34,7 +34,7 @@ const theme = createTheme(
         main: '#64b5f6',
       },
       secondary: {
-        main: '#65f6ef',
+        main: '#303b47',
       },
     },
     colors: {
