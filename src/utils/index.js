@@ -567,7 +567,7 @@ const longerName = asset => {
       return 'bitcoin';
     case 'LBTC':
       return 'liquidbitcoin';
-    case 'RBTC'
+    case 'RBTC':
        return 'rskbitcoin';
       
 
@@ -584,7 +584,7 @@ const shorterName = asset => {
       return 'btc';
     case 'LBTC':
       return 'lbtc';
-    case 'RBTC'
+    case 'RBTC':
       return 'rbtc';
 
     default:
