@@ -583,9 +583,9 @@ const shorterName = asset => {
     case 'BTC ⚡':
       return 'btc';
     case 'LBTC':
-      return 'liquidbitcoin';
+      return 'lbtc';
     case 'RBTC'
-      return 'rskbitcoin';
+      return 'rbtc';
 
     default:
       return asset;
