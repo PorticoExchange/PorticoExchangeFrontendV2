@@ -24,6 +24,7 @@ import {
   erc20tokenaddress,
   
   // rbtcswapaddress,
+  
   erc20swapaddress,
   rbtcswapaddress,
   liquidswapaddress,
@@ -438,8 +439,8 @@ export const getNetwork = symbol => {
  * Get the block explorer URL for a symbol
  */
 export const getExplorer = symbol => {
-  if (symbol === 'STX' || symbol === 'USDA' || symbol === 'XUSD') {
-    return stacksExplorer;
+  if (symbol === 'BTC' || symbol === 'LBTC' || symbol === 'USDT') {
+    return bitcoinexplorer;
   } else {
     return symbol === 'BTC' ? bitcoinExplorer : litecoinExplorer;
   }
@@ -471,7 +472,7 @@ export const getFeeEstimation = callback => {
       .then(response => callback(response))
       .catch(error => {
         console.log('some issue with fee estimation...');
-        callback({ BTC: 2, RBTC: 0, ETH: 0, STX: 0 });
+        callback({ BTC: 2, RBTC: 0, ETH: 0, LBTC: 0 });
         // window.alert(
         //   `Failed to get fee estimations: ${error.response.data.error}`
         // );
@@ -564,8 +565,11 @@ const longerName = asset => {
       return 'bitcoin';
     case 'BTC ⚡':
       return 'bitcoin';
-    case 'STX':
-      return 'blockstack';
+    case 'LBTC':
+      return 'liquidbitcoin';
+    case 'RBTC'
+       return 'rskbitcoin';
+      
 
     default:
       return asset;
@@ -578,8 +582,10 @@ const shorterName = asset => {
       return 'btc';
     case 'BTC ⚡':
       return 'btc';
-    case 'STX':
-      return 'stx';
+    case 'LBTC':
+      return 'liquidbitcoin';
+    case 'RBTC'
+      return 'rskbitcoin';
 
     default:
       return asset;
