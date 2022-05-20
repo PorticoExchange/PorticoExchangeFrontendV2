@@ -4,16 +4,28 @@ import {
   boltzApi,
   bitcoinNetwork,
   litecoinNetwork,
+  liquidNetwork,
+  rskNetwork,
   bitcoinExplorer,
   litecoinExplorer,
+  liquidExplorer,
+  rskexplorer,
   bitcoinAddress,
   litecoinAddress,
+  liquidAddress,
+  rskAddress,
   bitcoinInvoice,
   litecoinInvoice,
+  liquidInvoice,
+  rskINvoice
   erc20tokenaddress,
+  
   // rbtcswapaddress,
   erc20swapaddress,
-  stacksExplorer,
+  rbtcswapaddress,
+  liquidswapaddress,
+
+  
 } from '../constants';
 
 import Web3 from 'web3';
