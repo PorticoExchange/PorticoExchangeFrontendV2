@@ -77,7 +77,7 @@ export const startSwap = (swapInfo, cb) => {
 
   let reqobj;
   if (
-    (pair.id == 'BTC/STX' || pair.id == 'BTC/USDA' || pair.id == 'BTC/XUSD') &&
+    (pair.id == 'BTC/LBTC' || pair.id == 'BTC/USDT' || pair.id == 'BTC/BTC⚡️'|| pair.id== 'RBTC/BTC'|| pair.id=='LBTC/BTC') &&
     invoice.toLowerCase().slice(0, 4) !== 'lnbc'
   ) {
     reqobj = {
