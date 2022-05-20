@@ -24,17 +24,17 @@ const Refund = lazy(() => import('./refund'));
 const ReverseSwap = lazy(() => import('./reverse'));
 const ReverseSwapTimelockExpired = lazy(() => import('./reversetimelock'));
 
-// const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-// prefersDarkMode ? 'dark' : 'light',
+// const prefersBlueMode = useMediaQuery('(prefers-color-scheme: blue)');
+// prefersDarkMode ? 'blue' : 'light',
 const theme = createTheme(
   {
     palette: {
-      mode: 'dark',
+      mode: 'blue',
       primary: {
-        main: '#7a40ee',
+        main: '#64b5f6',
       },
       secondary: {
-        main: '#303b47',
+        main: '#65f6ef',
       },
     },
     colors: {
