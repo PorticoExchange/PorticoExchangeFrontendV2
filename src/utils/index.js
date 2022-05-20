@@ -440,7 +440,7 @@ export const getNetwork = symbol => {
  */
 export const getExplorer = symbol => {
   if (symbol === 'BTC' || symbol === 'LBTC' || symbol === 'USDT') {
-    return bitcoinexplorer;
+    return bitcoinExplorer;
   } else {
     return symbol === 'BTC' ? bitcoinExplorer : litecoinExplorer;
   }
