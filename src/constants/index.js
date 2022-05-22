@@ -42,6 +42,9 @@ export const boltzOnion = process.env.REACT_APP_BOLTZ_ONION;
 
 // Network Type
 export const stacksNetworkType = process.env.REACT_APP_STACKS_NETWORK_TYPE;
+export const rskNetworkType=process.env.REACT_APP_RSK_NETWORK_TYPE;
+export const liquidNetwork=process.env.REACT_APP_LIQUID_NETWORK_TYPE;
+export const bitcoinNetwork=process.env.REACT_APP_BITCOIN_NETWORK_TYPE;
 
 export const coreApiUrl = () => {
   let apiUrl = 'https://stacks-node-api.mainnet.stacks.co';
