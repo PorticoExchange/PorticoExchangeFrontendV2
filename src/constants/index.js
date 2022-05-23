@@ -41,19 +41,18 @@ export const ServiceWarnings = {
 export const boltzOnion = process.env.REACT_APP_BOLTZ_ONION;
 
 // Network Type
-export const stacksNetworkType = process.env.REACT_APP_STACKS_NETWORK_TYPE;
 export const rskNetworkType=process.env.REACT_APP_RSK_NETWORK_TYPE;
 export const liquidNetwork=process.env.REACT_APP_LIQUID_NETWORK_TYPE;
 export const bitcoinNetwork=process.env.REACT_APP_BITCOIN_NETWORK_TYPE;
 
 export const coreApiUrl = () => {
-  let apiUrl = 'https://stacks-node-api.mainnet.stacks.co';
+  let apiUrl = 'hhttps://public-node.rsk.co';
   if (stacksNetworkType === 'mocknet') {
     apiUrl = 'http://localhost:3999';
   } else if (stacksNetworkType === 'testnet') {
     apiUrl = 'https://stacks-node-api.testnet.stacks.co';
-  } else if (stacksNetworkType === 'mainnet') {
-    apiUrl = 'https://stacks-node-api.mainnet.stacks.co';
+  } else if (rsksNetworkType === 'mainnet') {
+    apiUrl = 'https://public-node.rsk.co';
   }
   return apiUrl;
 };
@@ -88,6 +87,8 @@ export const litecoinNetwork =
 export const bitcoinExplorer = process.env.REACT_APP_BITCOIN_EXPLORER;
 export const litecoinExplorer = process.env.REACT_APP_LITECOIN_EXPLORER;
 export const stacksExplorer = process.env.REACT_APP_STACKS_EXPLORER;
+export const rskExplore r= process.env.REACT_APP_RSK_EXPLORER;
+export const liquidExplorer = process.env.REACT_APP_LIQUID_EXPLORER;
 
 // Sample values
 export const lockupTransactionHash =
@@ -95,6 +96,8 @@ export const lockupTransactionHash =
 
 export const bitcoinAddress = process.env.REACT_APP_BITCOIN_ADDRESS;
 export const litecoinAddress = process.env.REACT_APP_LITECOIN_ADDRESS;
+export const liquidAddres s= process.env.REACT_APP_LIQUID_ADDRESS;
+export const rskAddress = process.env_REACT_RSK_ADDRESS;
 
 export const bitcoinInvoice = process.env.REACT_APP_BITCOIN_INVOICE;
 export const litecoinInvoice = process.env.REACT_APP_LITECOIN_INVOICE;
