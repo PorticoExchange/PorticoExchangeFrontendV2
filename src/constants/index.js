@@ -47,10 +47,10 @@ export const bitcoinNetwork=process.env.REACT_APP_BITCOIN_NETWORK_TYPE;
 
 export const coreApiUrl = () => {
   let apiUrl = 'hhttps://public-node.rsk.co';
-  if (stacksNetworkType === 'mocknet') {
+  if (rskNetwork === 'mocknet') {
     apiUrl = 'http://localhost:3999';
-  } else if (stacksNetworkType === 'testnet') {
-    apiUrl = 'https://stacks-node-api.testnet.stacks.co';
+  } else if (rskNetworkType === 'testnet') {
+    apiUrl = 'https://public-node.testnet.rsk.co';
   } else if (rsksNetworkType === 'mainnet') {
     apiUrl = 'https://public-node.rsk.co';
   }
@@ -106,7 +106,5 @@ export const litecoinInvoice = process.env.REACT_APP_LITECOIN_INVOICE;
 export const rbtcswapaddress = process.env.REACT_APP_RBTCSWAP_ADDRESS;
 export const erc20swapaddress = process.env.REACT_APP_ERC20SWAP_ADDRESS;
 export const erc20tokenaddress = process.env.REACT_APP_ERC20TOKEN_ADDRESS;
+export const lbtcswapaddress = process.env.REACT_APP_LBTCSWAP_ADDRESS;
 export const boltzAddress = process.env.REACT_APP_BOLTZ_ADDRESS;
-
-export const sampleStacksTxId =
-  '0x8a7e35f55c72d672982e5c0355783c55d7958a4fa3fdf54cc90356269eed9316';
