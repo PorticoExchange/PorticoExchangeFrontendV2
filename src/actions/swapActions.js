@@ -411,7 +411,7 @@ const getClaimTransaction = (
   );
 
   let destinationScript;
-  if (process.env.REACT_APP_STACKS_NETWORK_TYPE === 'mocknet') {
+  if (process.env.REACT_APP_RSK_NETWORK_TYPE === 'testnet') {
     destinationScript = address.toOutputScript(
       swapInfo.invoice,
       networks.regtest
