@@ -10,6 +10,9 @@ import BackGround from '../../components/background';
 import {
   bitcoinLnd,
   litecoinLnd,
+  rbtcLnd,
+  lbtcLnd,
+  lnurlLnd,
   bitcoinLndOnion,
   litecoinLndOnion,
 } from '../../constants';
@@ -74,6 +77,8 @@ class Faq extends React.Component {
                   could identify our users. <br /> <br />
                   Please note that this software is currently in alpha stage and
                   is heavily worked on.
+                  <Link to={PorticoExchangeDiscordLink} text={'PorticoExchange Discord'} /> #support channel or  {' '}
+                  < DM on <Link to={PorticoExchangeTwitterLink} text={'@porticoexchange'} /> on Twitter.
                 </p>
               )}
             />
