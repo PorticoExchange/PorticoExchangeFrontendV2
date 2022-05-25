@@ -134,7 +134,7 @@ class Faq extends React.Component {
                     text={'Wallet of Satoshi'}
                   />
                   , that work out of the box and can make using Portico Exchange very
-                  easy and too we support LNURL as Zebedee.
+                  easy and too we support LNURL as Zebedee and Alby(porticoexchange@getalby.com)
                 </p>
               )}
             />
