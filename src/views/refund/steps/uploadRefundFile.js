@@ -119,8 +119,8 @@ const StyledUploadRefundFile = ({
         </DropZone>
         <View className={classes.regular}>
           <p className={`${classes.mobileInfo}`}>
-            (Optional) If you don't have the refund file, paste Stacks lockStx
-            transaction Id
+            (Optional) If you don't have the refund file, paste BTC tx 
+            transaction Id via RSK, Liquid or Onchain
           </p>
           <InputArea
             height={100}
