@@ -90,9 +90,6 @@
     "eslint-plugin-react": "^7.24.0",
     "prettier": "^1.19.1"
     {
-    "scripts": [
-    "build": "[portico-exchange-mainnet] build --output public"
-  ]
 }
 
   }
