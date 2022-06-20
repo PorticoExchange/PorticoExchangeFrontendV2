@@ -2,7 +2,7 @@
 
 
 * Frontend for Portico Exchange
-* Running on https://lnswap.org (testnet)
+* Running on PorticoExchangeFrontendV2.github.io (testnet)
 
 ## deploy to Vercel with 1-click
 
