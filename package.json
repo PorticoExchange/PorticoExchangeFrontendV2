@@ -1,5 +1,6 @@
 {
-  "name": "lnstxbridge-frontend",
+  "homepage": "https://porticoexchange.xyz/"
+  "name": "porticoexchangefrontendv2-frontend",
   "version": "1.0.0",
   "scripts": {
     "start": "BROWSER=none react-scripts start",
